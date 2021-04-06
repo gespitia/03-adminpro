@@ -11,7 +11,7 @@ const routes: Routes = [
   // path: '/grafica1', PagesRouting
   // path: '/login', AuthRouting
   // path: '/register', AuthRouting
-  { path: ' ', redirectTo: '/dashboard', pathMatch:'full'},
+  { path: '', redirectTo: '/dashboard', pathMatch:'full'},
   { path: '**', component: NopagefoundComponent}
 ]
 
